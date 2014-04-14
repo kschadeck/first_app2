@@ -30,6 +30,13 @@ gem 'sdoc', '~> 0.4.0',          group: :doc
 gem 'spring',        group: :development
 
 gem 'tzinfo-data', '~> 1.2014.2'
+
+# Heroku setup for PostgreSQL
+gem 'pg', '0.15.1',   group: :production
+
+# Heroku serves static assets such as images and stylesheets
+gem 'rails_12factor', '0.0.2', group: :production
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
